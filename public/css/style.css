@@ -1,6 +1,7 @@
 body {
-    background-color: #FFFFFF;
-    color: #111111;
+    background-color: #faf9f5;
+	line-height: 1.4em;
+
     margin: 15px auto;
     padding: 0 10px;
 }
@@ -9,8 +10,10 @@ code {
     white-space: nowrap;
 }
 
-tt {
-    white-space: pre;
+div#sitewrapper {
+	padding: 0 5px;
+	margin: 0 1em;
+	width: 680px;
 }
 
 .cmdbox {
@@ -19,3 +22,15 @@ tt {
     overflow: auto;
     padding: 10px;
 }
+
+@media only screen and (max-width: 780px) {
+    html, body, h1, h2, h3, h4, h5, input, textarea, header select {
+        font-size: 10.5pt;
+    }
+
+    div#sitewrapper {
+        width: auto;
+        padding: 0;
+    }
+}
+
